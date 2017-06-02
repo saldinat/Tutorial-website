@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+header, aside{
+    font-family: 'Press Start 2P';
+}
+header, footer{
+    background-color: #6fcab4;
+    color: black;
+    height: 10%;
+    padding-top: 40px;
+    text-align: center;
+    position: relative; /* do i need it? */
+}
+h1{
+    font-family: 'Press Start 2P';
+    padding: 20px 20px;
+    text-align: center;
+    font-size: larger;
+}
+.head{
+    width: 60%;
+}
+ul{
+    list-style-type: none;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+}
+aside{
+    font-size: 120%;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    float: left;
+}
+aside a{
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+aside a:hover{
+    background-color: #6fcab4;
+}
+section{
+    width: 70%;
+    padding: 20px;
+    float: right;
+}
+#intro img, #result img{
+    float:left;
+    margin-right: 20px;
+}
+.steps h2{
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+figcaption{
+    width: 350px;
+    height: 250px;
+    font-family: Dosis;
+    font-size: x-large;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(145, 109, 121, 0.06);
+}
+.steps img{
+    width: 25%;
+    padding: 20px;
+    vertical-align: bottom;
+}
+#dough{
+    list-style-image: url('../img/checkmark.png');
+    font-family: Dosis;
+    float: left;
+    width: 30%;
+    font-size: x-large;
+}
+#toppings{
+    list-style-image: url('../img/checkmark.png');
+    font-family: Dosis;
+    float: left;
+    width: 30%;
+    font-size: x-large;
+}
+.steps{
+    clear:both;
+}
+footer{
+    clear: both;
+}
+.selected{
+    background-color: #6fcab4;
+}
+p{
+    font-family: Dosis;
+    font-size: x-large;
+}
+#back{
+    padding-top: 10px;
+}
+.steps p{
+    text-align: center;
+    width: 100%;
+}
+#intro img{
+    width: 250px;
+}
+#intro p{
+    width: 83%;
+}
+#result p {
+    padding: 100px;
+    width: 60%;
+}
+
+#result img{
+    width: 30%;
+}
+#sources{
+    list-style-image: url('../img/location.png');
+    font-family: Dosis;
+    float: left;
+    width: 30%;
+    font-size: x-large;
+}
